@@ -1,0 +1,73 @@
+:root {
+    --brand-color: #013755;
+    --color-primario: #233559;
+    --color-title: #233559;
+}
+
+.navbar {
+    background-color: var(--brand-color);
+}
+
+.btn-primary {
+    background-color: var(--brand-color);
+    border-color: var(--brand-color);
+}
+
+body {
+    display: block;
+    margin: 0px !important;
+}
+
+/* styles custom */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    /* background-image: url("../img/2-Campus\ Ate\ 1.png"); */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; */
+    /* background: url("../img/fondo.svg") center no-repeat; */
+    background: url("../img/fondo.svg") center no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* y */
+    align-items: center;
+    /* x */
+    justify-content: center;
+}
+
+#logo {
+    width: 200px;
+}
+
+.btnLogin {
+    height: 56px;
+    font-weight: 500;
+    background-color: var(--color-title);
+}
+
+.primary-link a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.lbLogin {
+    /* font-weight: 500; */
+    color: darkgray;
+}
+
+.sttitle {
+    color: var(--color-title);
+}
+
+.cardstyle {
+    max-width: 400px;
+    min-width: 300px;
+}

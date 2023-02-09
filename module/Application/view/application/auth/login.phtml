@@ -1,0 +1,97 @@
+<?php
+
+/**
+ * @var Laminas\View\Renderer\PhpRenderer $this
+ */
+?>
+
+<div class="box-login border p-5 rounded-5 shadow-lg mdc-card cardstyle" style="width:90%;">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <div>
+                <img src=<?= "img/login_logo.svg" ?> alt="" id="logo">
+                <!-- <img src="img/login_logo.png" alt="" id="logo"> -->
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-lg-12">
+            <h2 class="text-center sttitle">CCCAP</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <label for="email" class="lbLogin">Correo</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 mt-2">
+            <label class="mdc-text-field mdc-text-field--outlined w-100">
+                <span class="mdc-notched-outline">
+                    <span class="mdc-notched-outline__leading"></span>
+                    <span class="mdc-notched-outline__notch">
+                        <span class="mdc-floating-label" id="my-label-id">Ingreasa tu correo de UCV</span>
+                    </span>
+                    <span class="mdc-notched-outline__trailing"></span>
+                </span>
+                <input type="text" id="email" name="email" class="mdc-text-field__input" aria-labelledby="my-label-id">
+            </label>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-lg-12">
+            <label for="email" class="lbLogin">Contraseña</label>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-lg-12">
+            <label class="mdc-text-field mdc-text-field--outlined w-100 mdc-text-field--with-trailing-icon">
+                <span class="mdc-notched-outline">
+                    <span class="mdc-notched-outline__leading"></span>
+                    <span class="mdc-notched-outline__notch">
+                        <span class="mdc-floating-label" id="my-label-id">Ingresa tu contraseña</span>
+                    </span>
+                    <span class="mdc-notched-outline__trailing"></span>
+                </span>
+                <input type="text" class="mdc-text-field__input" aria-labelledby="my-label-id">
+            </label>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-lg-12 text-center">
+            <button class="btn btn-primary w-100 rounded-pill btnLogin">
+                Ingresar
+            </button>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-lg-12 text-center">
+            <p class="">
+                ¿Todavia no haz creado tu contraseña?
+            </p>
+        </div>
+        <div class="col-lg-12 text-center primary-link">
+            <a href="#">
+                Registrate aquí
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 text-center mt-4">
+            <p>
+                ¿Olvidaste tu contraseña?
+            </p>
+        </div>
+        <div class="col-lg-12 text-center primary-link">
+            <a href="#">
+                Recupera tu contraseña aquí
+            </a>
+        </div>
+    </div>
+</div>
+<!-- <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+<script>
+    const form_material = [].map.call(document.querySelectorAll('.mdc-text-field'), function(el) {
+        return new mdc.textField.MDCTextField.attachTo(el);
+    });
+</script> -->
